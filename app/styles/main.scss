@@ -147,7 +147,10 @@ body {
 
 .middle {
     text-align: center;
+    height: 500px;
+    color: white;
     h1 {
+        margin-top: 200px;
         text-align: center;
 
     }
@@ -155,13 +158,18 @@ body {
         font-size: 20px;
         text-align: center;
         color: black;
+        color: white;
     }
+    background-image: url('images/mountain.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .work   {
     height: 400px;
     position: relative;
-    background-image: url(images/mountain.png);
+    background: #fff;
 }
 
 .footer {
@@ -170,6 +178,4 @@ body {
     background: rgb(49, 49, 52);
 }
 
-.image-middle {
-    
-}
+
