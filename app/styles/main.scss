@@ -154,7 +154,7 @@ body {
         text-align: center;
     }
     span {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
         color: #fff;
     }
@@ -165,6 +165,7 @@ body {
     height: 400px;
     position: relative;
     background: #fff;
+    display: inline-block;
 }
 
 .footer {
@@ -180,4 +181,50 @@ body {
     height: 120px;
 }
 
+.featured-images {
+    display: inline-block;
+    position: absolute;
+    height: 200px;
+}
 
+.featured-items {
+    height: 300px;
+    position: relative;
+    display: inline;
+    background: black;
+}
+
+.featured-one {
+    position: relative;
+    display: inline-block;
+    background: blue;
+    height: 300px;
+    width: 300px;
+}
+        p {
+            font-size: 12px;
+            display: block;
+            position: relative;
+        }
+
+.featured-two {
+    position: relative;
+    display: inline-block;
+    background: red;
+    height: 300px;
+    width: 300px;
+}
+
+.featured-three {
+    position: relative;
+    display: inline-block;
+    background: green;
+    height: 300px;
+    width: 300px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
