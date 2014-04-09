@@ -72,6 +72,7 @@ body {
     .container {
         position: relative;
         max-width: 960px;
+        text-align: center;
     }
 
     /* Remove the padding we set earlier */
@@ -183,7 +184,7 @@ body {
 
 .featured-images {
     display: inline-block;
-    position: absolute;
+    position: relative;
     height: 200px;
 }
 
@@ -200,12 +201,9 @@ body {
     background: blue;
     height: 300px;
     width: 300px;
+    text-align: center;
 }
-        p {
-            font-size: 12px;
-            display: block;
-            position: relative;
-        }
+     
 
 .featured-two {
     position: relative;
