@@ -12,8 +12,8 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 /* Space out content a bit */
 body {
     margin: 0 auto;
-    padding-bottom: 20px;
     font-family: 'Lato', sans-serif;
+    padding-top: 80px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -72,66 +72,17 @@ body {
     .container {
         position: relative;
         max-width: 960px;
-        text-align: center;
+        margin: 0 auto;
     }
 
     /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
 
-    /* Space out the masthead */
-    
-    
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
 }
 
 .logo {
     margin-top: 20px;
     height: 60px;
     display: inline-block;
-    &:hover {
-        opacity: .4;
-    }
-    -webkit-transition: all .5s ease;
-}
-
-.navigation-css {
-    height: 100px; 
-    line-height: 100px;
-    display: inline;
-    position: absolute;
-}
-
-.navigation {
-    display: inline-block;
-    position: absolute;
-    text-align: center;
-    right: 0;
-}
-
-.nav-top {
-    height: 100px;
-    display: inline-block;
-    line-height: 100px;
-    position: relative;
-    padding: 0 10px 0 10px;
-    text-align: center;
-    a {
-        color: #fff;
-        font-size: 16px;
-    }
-}
-
-.icons {
-    width: 80px;
-    display: inline;
     &:hover {
         opacity: .4;
     }
@@ -145,6 +96,78 @@ body {
     position: absolute;
     z-index: -1;
 }
+
+.head {
+    margin-top: -80px;
+    background: white;
+    height: 80px;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo-black {
+    height: 60px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.name-title {
+    margin-top: 100px;
+    background: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-bar {
+    display: inline-block;
+    height: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-contact {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    display: inline;
+    text-align: center;
+    line-height: 80px;
+    background: red;
+}
+
+.navbar-experience {
+    position: absolute;
+    right: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline;
+    line-height: 80px;
+    background: green;
+}
+
+.navbar-home {
+    position: absolute;
+    width: 100px;
+    right: 200px;
+    text-align: center;
+    display: inline;
+    line-height: 80px;
+    background: yellow;
+}
+
+
+
+.icons {
+    width: 80px;
+    display: inline;
+    &:hover {
+        opacity: .4;
+    }
+    -webkit-transition: all .5s ease;
+}
+
+
 
 .middle {
     position: relative;
@@ -169,7 +192,7 @@ body {
     display: inline-block;
 }
 
-.footer {
+.bottom {
     position: relative;
     height: 200px;
     background: rgb(49, 49, 52);
@@ -177,10 +200,7 @@ body {
     line-height: 200px;
 }
 
-.logo-black {
-    margin-top: 50px;
-    height: 120px;
-}
+
 
 .featured-images {
     display: inline-block;
@@ -199,29 +219,13 @@ body {
     position: relative;
     display: inline-block;
     background: blue;
-    height: 300px;
+    height: 250px;
     width: 300px;
     text-align: center;
 }
      
 
-.featured-two {
-    position: relative;
-    display: inline-block;
-    background: red;
-    height: 300px;
-    width: 300px;
-}
-
-.featured-three {
-    position: relative;
-    display: inline-block;
-    background: green;
-    height: 300px;
-    width: 300px;
-}
-
-.footer {
+.bottom {
     width: 100%;
     position: relative;
     display: inline-block;
