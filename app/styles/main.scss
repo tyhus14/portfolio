@@ -170,6 +170,20 @@ body {
     width: 100%;
 }
 
+.basketball {
+    width: 281px;
+}
+
+.image-one {
+    position: absolute;
+    left: 0;
+}
+
+.image-three {
+    position: absolute;
+    right: 0;
+}
+
 .ex-three {
     margin-right: 0px;
     position: absolute;
@@ -179,9 +193,20 @@ body {
     display: inline-block;
     position: relative;
     background: red;
-    height: 300px;
+    height: 500px;
     width: 310px;
     margin-right: 0;
+    text-align: center;
+}
+
+.work-text {    
+    margin-top: 194px;
+    background: white;
+    height: 240px;
+    display: inline-block;
+    width: 281px;
+    position: absolute;
+    left: 0;
 }
 
 .nav-bar {
