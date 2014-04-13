@@ -2,6 +2,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -76,6 +77,12 @@ body {
     }
 
     /* Remove the padding we set earlier */
+.header-container {
+    padding-right: 0px;
+    position: relative;
+    max-width: 930px;
+    margin: 0 auto;
+}
 
 }
 
@@ -104,6 +111,8 @@ body {
     position: fixed;
     z-index: 5;
 }
+
+
 
 .logo-black {
     height: 60px;
@@ -155,10 +164,24 @@ body {
 .work-experience {
     margin-top: 100px;
     display: inline-block;
-    position: relative;
+    padding-left: 0px;
     background: green;
-    height: 500px;
+    padding-right: 0px;
     width: 100%;
+}
+
+.ex-three {
+    margin-right: 0px;
+    position: absolute;
+    right: 0;
+}
+.experience-items {
+    display: inline-block;
+    position: relative;
+    background: red;
+    height: 300px;
+    width: 310px;
+    margin-right: 0;
 }
 
 .nav-bar {
