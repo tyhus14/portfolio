@@ -1,6 +1,7 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
+@import url('http://fonts.googleapis.com/css?family=Lato');
 
 
 .browsehappy {
@@ -16,6 +17,10 @@ body {
     font-family: 'Lato', sans-serif;
     padding-top: 80px;
     background: black;
+}
+
+body * {
+    font-family: 'Lato', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
