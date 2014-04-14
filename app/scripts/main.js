@@ -4,7 +4,7 @@ $(".nav-items").bind("click", function(e) {
     var location = $(this).attr("href")
 
     $('html, body').animate({
-        scrollTop: $(location).offset().top
+        scrollTop: $(location).offset().top - 80
     }, 1500);
 
 });
