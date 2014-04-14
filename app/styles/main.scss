@@ -79,11 +79,7 @@ body {
 
     /* Remove the padding we set earlier */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .ex-one {
-        position: relative;
-    }
-}
+
 
 .header-container {
     padding-right: 0px;
@@ -122,6 +118,7 @@ body {
     a {
         color: rgb(100, 99, 99)
     }
+
 }
 
 
@@ -145,6 +142,9 @@ body {
         font-size: 60px;
         text-align: center;
        
+    }
+     @media only screen and (max-width : 400px) {
+            margin-top: 100px;
     }
 }
 
@@ -180,6 +180,9 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
+    @media only screen and (max-width : 400px) {
+            margin-top: 100px;
+    }
 }
 
 .basketball {
@@ -191,16 +194,37 @@ body {
       
     }
     -webkit-transition: all .5s ease;
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .image-one {
     position: absolute;
     left: 0;
+      @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .image-three {
     position: absolute;
     right: 0;
+      @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .ex-three {
@@ -220,6 +244,14 @@ body {
         text-decoration: none;
         }
     }
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 30px;
+    }
 }
 
 .work-text {    
@@ -234,6 +266,13 @@ body {
     p {
         padding: 10px;
     }
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .work-text-two {
@@ -243,6 +282,13 @@ body {
     width: 281px;
     p {
         padding: 10px;
+    }
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
     }
 }
 
@@ -257,6 +303,13 @@ body {
     p {
         padding: 10px;
     }
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .bottom-one {
@@ -270,6 +323,13 @@ body {
     line-height: 60px;
     font-size: 20px;
     color: rgb(224, 224, 224);
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .bottom-two {
@@ -280,6 +340,13 @@ body {
     line-height: 60px;
     font-size: 20px;
     color: rgb(224, 224, 224);
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .bottom-three {
@@ -293,6 +360,13 @@ body {
     line-height: 60px;
     font-size: 20px;
     color: rgb(224, 224, 224);
+       @media only screen and (max-width : 400px) {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    }
 }
 
 .nav-bar {
@@ -318,6 +392,9 @@ body {
         text-decoration: none;
         }
     }
+    @media only screen and (max-width : 400px) {
+            width: 80px;
+    }
 }
 
 .navbar-experience {
@@ -336,6 +413,11 @@ body {
         text-decoration: none;
         }
     }
+    @media only screen and (max-width : 400px) {
+            width: 80px;
+            right: 80px;
+            padding: 0;
+    }
 }
 
 .navbar-home {
@@ -353,6 +435,10 @@ body {
     &:hover {
         text-decoration: none;
         }
+    }
+    @media only screen and (max-width : 400px) {
+            width: 80px;
+            right: 160px;
     }
 }
 
@@ -460,5 +546,6 @@ body {
         text-decoration: none;
         }
     }
+
 }
 
