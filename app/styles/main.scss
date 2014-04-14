@@ -78,6 +78,13 @@ body {
     }
 
     /* Remove the padding we set earlier */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .ex-one {
+        position: relative;
+    }
+}
+
 .header-container {
     padding-right: 0px;
     position: relative;
