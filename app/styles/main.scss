@@ -545,12 +545,13 @@ body * {
         }
     }
     @media only screen and (max-width : 400px) {
-            width: 70px;
-            font-size: 9px;
+            width: 75px;
+            font-size: 12px;
+            padding: 0 0 0 0;
     }
 }
 
-.navbar-experience {
+.navbar-experience { 
     position: absolute;
     right: 115px;
     width: 100px;
@@ -576,10 +577,10 @@ body * {
         }
     }
     @media only screen and (max-width : 400px) {
-            width: 70px;
+            width: 75px;
             right: 85px;
-            padding: 0;
-            font-size: 9px;
+            padding: 0 0 0 0;
+            font-size: 12px;
     }
 }
 
@@ -608,9 +609,10 @@ body * {
         }
     }
     @media only screen and (max-width : 400px) {
-            width: 70px;
+            width: 75px;
             right: 155px;
-            font-size: 9px;
+            font-size: 12px;
+            padding: 0 0 0 0;
     }
 }
 
