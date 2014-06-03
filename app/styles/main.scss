@@ -77,7 +77,13 @@ body * {
 }
 
 /* Responsive: Portrait tablets and up */
-
+@media screen and (min-width: 768px) {
+    .container {
+        position: relative;
+        max-width: 960px;
+        margin: 0 auto;
+       
+    }
 
     /* Remove the padding we set earlier */
 
@@ -90,7 +96,7 @@ body * {
     margin: 0 auto;
 }
 
-
+}
 
 .logo {
     margin-top: 20px;
@@ -516,7 +522,7 @@ body * {
 
 .navbar-contact {
     position: absolute;
-    right: 0;
+    right: 15px;
     width: 100px;
     display: inline;
     text-align: center;
@@ -546,7 +552,7 @@ body * {
 
 .navbar-experience {
     position: absolute;
-    right: 100px;
+    right: 115px;
     width: 100px;
     text-align: center;
     display: inline;
@@ -571,7 +577,7 @@ body * {
     }
     @media only screen and (max-width : 400px) {
             width: 80px;
-            right: 80px;
+            right: 95px;
             padding: 0;
             font-size: 10px;
     }
@@ -580,7 +586,7 @@ body * {
 .navbar-home {
     position: absolute;
     width: 100px;
-    right: 200px;
+    right: 215px;
     text-align: center;
     display: inline;
     line-height: 80px;
@@ -603,7 +609,7 @@ body * {
     }
     @media only screen and (max-width : 400px) {
             width: 80px;
-            right: 160px;
+            right: 175px;
             font-size: 10px;
     }
 }
