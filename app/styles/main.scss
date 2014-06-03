@@ -177,12 +177,13 @@ body * {
     width: 100%;
     margin-top: -30px;
     font-size: 35px;
-    color: rgb(62, 62, 62);
+    color: rgb(53, 54, 57);
     text-align: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px rgba( 0,0,0,0.3 );
     @media only screen and (max-width : 400px) {
-            font-size: 20px;
+            font-size: 12px;
+            margin-top: -5px;
     }
       -webkit-transition: all .5s ease;
 }
@@ -199,7 +200,7 @@ body * {
     text-transform: uppercase;
     @media only screen and (max-width : 400px) {
             font-size: 20px;
-            padding-bottom: 50px;
+            margin-top: -5px;
     }
       -webkit-transition: all .5s ease;
 }
@@ -210,8 +211,7 @@ body * {
     font-size: 35px;
     text-align: center;
     font-weight: 900;
-    color: rgb(62, 62, 62);
-    text-shadow: 2px 2px 2px rgba( 0,0,0,0.3 );
+    color: rgb(53, 54, 57);
     padding-bottom: 140px;
     text-transform: uppercase;
     @media only screen and (max-width : 400px) {
@@ -283,7 +283,7 @@ body * {
 
 .featured-title {
     padding-top: 50px;
-    color: white;
+    color: rgb(169, 224, 248);
     font-size: 25px;
     text-transform: uppercase;
     width: 100%;
@@ -297,9 +297,10 @@ body * {
 .basketball {
     background: blue;
     width: 281px;
-    border: 1px solid rgb(169, 224, 248);
+    border: 1px solid white;
     &:hover {
-        opacity: .5;
+        opacity: .3;
+        background: rgb(169, 224, 248);
       
     }
     -webkit-transition: all .5s ease;
@@ -372,7 +373,7 @@ body * {
 .work-text {    
     padding-top: 1px;
     margin-top: 194px;
-    background: rgb(224, 224, 224);
+    background: white;
     height: 200px;
     display: inline-block;
     width: 281px;
@@ -392,7 +393,7 @@ body * {
 
 .work-text-two {
     padding-top: 1px;
-    background: rgb(224, 224, 224);
+    background: white;
     height: 200px;
     width: 281px;
     p {
@@ -410,7 +411,7 @@ body * {
 .work-text-three {
     padding-top: 1px;
     margin-top: 194px;
-    background: rgb(224, 224, 224);
+    background: white;
     height: 200px;
     width: 281px;
     position: absolute;
@@ -599,16 +600,17 @@ body * {
 
 .bottom {
  
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     position: relative;
-    background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 5%, rgba(19,19,19,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(0%,rgba(0,0,0,1)), color-stop(5%,rgba(89,89,89,1)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(0,0,0,1) 0%,rgba(89,89,89,1) 5%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(0,0,0,1) 0%,rgba(89,89,89,1) 5%,rgba(19,19,19,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(0,0,0,1) 0%,rgba(89,89,89,1) 5%,rgba(19,19,19,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(0,0,0,1) 0%,rgba(89,89,89,1) 5%,rgba(19,19,19,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+    background: rgb(40,41,46); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(40,41,46,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(40,41,46,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(40,41,46,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(40,41,46,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(40,41,46,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(40,41,46,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28292e', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
     text-align: center;
     width: 100%;
     position: relative;
@@ -668,8 +670,9 @@ body * {
      
 .githubs {
     &:hover {
-        background: rgba(49, 49, 52, 1); 
+        background: rgb(169, 224, 248); 
         text-decoration: none;
+        color: rgb(53, 54, 57);
     }
     -webkit-transition: all .5s ease;
     a {
@@ -686,7 +689,6 @@ body * {
     color: rgb(53, 54, 57);
     text-align: center;
     font-size: 20px;
-    border-top: 1px solid rgb(250, 250, 250);
     
      @media only screen and (max-width : 400px) {
             padding: 30px 20px 20px 20px;
@@ -702,5 +704,15 @@ body * {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
+}
+
+.contact-info {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color: rgb(169, 224, 248);
 }
 
