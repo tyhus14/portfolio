@@ -109,10 +109,9 @@ body * {
 }
 
 .img-responsive {
-    display: block;
     max-width: 100%;
-    height: auto;
-    position: fixed;
+    
+    position: absolute;
     z-index: -1;
     
 }
