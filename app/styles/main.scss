@@ -520,7 +520,7 @@ body * {
     right: 0;
 }
 
-.navbar-contact {
+.navbar-contact { 
     position: absolute;
     right: 15px;
     width: 100px;
@@ -545,8 +545,8 @@ body * {
         }
     }
     @media only screen and (max-width : 400px) {
-            width: 80px;
-            font-size: 10px;
+            width: 70px;
+            font-size: 9px;
     }
 }
 
@@ -576,14 +576,14 @@ body * {
         }
     }
     @media only screen and (max-width : 400px) {
-            width: 80px;
-            right: 95px;
+            width: 70px;
+            right: 85px;
             padding: 0;
-            font-size: 10px;
+            font-size: 9px;
     }
 }
 
-.navbar-home {
+.navbar-home { 
     position: absolute;
     width: 100px;
     right: 215px;
@@ -608,9 +608,9 @@ body * {
         }
     }
     @media only screen and (max-width : 400px) {
-            width: 80px;
-            right: 175px;
-            font-size: 10px;
+            width: 70px;
+            right: 155px;
+            font-size: 9px;
     }
 }
 
