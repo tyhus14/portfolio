@@ -1,10 +1,16 @@
-$(".nav-items").bind("click", function(e) {
+$(function() {
 
-    e.preventDefault();
-    var location = $(this).attr("href")
+    $(".nav-items").bind("click", function(e) {
 
-    $('html, body').animate({
-        scrollTop: $(location).offset().top - 80
-    }, 1500);
+        e.preventDefault();
+        var location = $(this).attr("href")
+
+        $('html, body').animate({
+            scrollTop: $(location).offset().top - 80
+        }, 1500);
+
+    });
+
+
 
 });

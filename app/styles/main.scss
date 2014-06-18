@@ -154,6 +154,18 @@ body * {
     background: url(../images/texture.png) no-repeat;
 }
 
+.letters-img {
+    position: absolute;
+    height: 55px;
+    margin: 185px 545px;
+    z-index: 1;
+    cursor: pointer;
+    &:hover {
+        -webkit-transform: rotate(360deg);
+    } 
+    -webkit-transition: all 1s ease;
+}
+
 .welcome {
     position: relative;
     text-transform: uppercase;
@@ -164,6 +176,7 @@ body * {
     width: 100%;
     font-weight: 900;
     text-shadow: 1px 1px 1px rgba( 0,0,0,0.3 );
+
 
     @media only screen and (max-width : 768px) {
             font-size: 75px;
@@ -233,12 +246,12 @@ body * {
     text-transform: uppercase;
 
     @media only screen and (max-width : 768px) {
-            font-size: 25px;
+            font-size: 20px;
             padding-bottom: 75px;
     }
 
     @media only screen and (max-width : 400px) {
-            font-size: 20px;
+            font-size: 16px;
             padding-bottom: 50px;
             margin-top: -5px;
     }
@@ -324,7 +337,6 @@ body * {
     &:hover {
         opacity: .3;
         background: rgb(169, 224, 248);
-      
     }
     -webkit-transition: all .5s ease;
        @media only screen and (max-width : 400px) {
@@ -432,7 +444,10 @@ body * {
 }
 
 .five-text {
-    height: 194px;
+    height: 200px;
+    margin-top: -6px;
+    z-index: 0;
+    position: relative;
 }
 
 .work-text-three {
@@ -767,5 +782,10 @@ body * {
     width: 100%;
     text-align: center;
     color: rgb(169, 224, 248);
+}
+
+.flash-content {
+    text-align: center; 
+    margin-top: -25px;
 }
 
